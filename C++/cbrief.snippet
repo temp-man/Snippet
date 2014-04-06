@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cbrief</Title>
+      <Author>Alex Tremskin</Author>
+      <Description>Short comment in doxigen format</Description>
+      <SnippetTypes>
+       <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Shortcut>cbrief</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>description</ID>
+          <ToolTip>Short description here</ToolTip>
+          <Default>description</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp"><![CDATA[/// @brief $description$.]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
